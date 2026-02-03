@@ -1,42 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Asfan | Portfolio</title>
-
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asfan Ali Khan | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <section class="container fade-in">
-    <h1>About Me</h1>
-    <p>
-      Hi, I’m <strong>Asfan Ali Khan</strong>. I’m a final-year Computer Science
-      student passionate about solving real-world problems using web technologies.
-    </p>
 
-    <hr />
+    <!-- HEADER -->
+    <header>
+        <h1 id="typing-name">Asfan Ali Khan</h1>
+        <p class="fade">Web Developer | Java | DSA</p>
+    </header>
 
-    <h2>Education</h2>
-    <ul>
-      <li>B.Tech CSE – CUTM Bhubaneswar (CGPA: 8.7)</li>
-      <li>Intermediate – 63%</li>
-      <li>Matriculation – 62%</li>
-    </ul>
+    <!-- ABOUT -->
+    <section  id="about" class="fade">
+        <h2>About Me</h2>
+        <p>
+            Hi, I’m Asfan Ali Khan, a final-year B.Tech student in Computer Science and Engineering.
+            I am passionate about solving real-world problems using web technologies and building
+            scalable applications.
+        </p>
+    </section>
 
-    <hr />
+    <!-- SKILLS -->
+    <section id="skills" class="fade">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Java, Python (Fundamentals)</li>
+            <li>Data Structures & Algorithms (Java)</li>
+            <li>Frontend: HTML, CSS, JavaScript, React</li>
+            <li>Backend: Java</li>
+            <li>DevOps (Basic)</li>
+            <li>Machine Learning & Deep Learning</li>
+        </ul>
+    </section>
 
-    <h2>Skills</h2>
-    <ul>
-      <li>Java, Python</li>
-      <li>DSA (Java)</li>
-      <li>HTML, CSS, JavaScript, React</li>
-      <li>Backend: Java</li>
-      <li>Machine Learning</li>
-    </ul>
-  </section>
+    <!-- EDUCATION -->
+    <section id="education" class="fade">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                B.Tech in Computer Science & Engineering – CUTM, Bhubaneswar  
+                <br>CGPA: <strong>8.7</strong> (Till 7<sup>th</sup> Semester)
+            </li>
+            <li>
+                Intermediate – Brajasundar Higher Secondary School (2021)  
+                <br>Percentage: <strong>63%</strong>
+            </li>
+            <li>
+                Matriculation – Brajasundar High School (2019)  
+                <br>Percentage: <strong>62%</strong>
+            </li>
+        </ul>
+    </section>
 
-  <script src="script.js"></script>
+    <!-- PROJECTS -->
+    <section id="projects" class="fade">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Learning-Based Attendance System</h3>
+            <p>
+                A web-based attendance system that evaluates students' understanding
+                through learning responses instead of manual attendance.
+            </p>
+        </div>
+
+        <div id="contact" class="fade">
+            <h3>Potato Disease Classification</h3>
+            <p>
+                Machine learning project to detect potato leaf diseases using image
+                classification and dashboard visualization.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="fade">
+        <h2>Contact</h2>
+        <p>Email: asfanalikhan8@gmail.com</p>
+        <p>Location: India</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Asfan Ali Khan | Portfolio</p>
+    </footer>
+    <script src="script.js"></script>
+
 </body>
 </html>
